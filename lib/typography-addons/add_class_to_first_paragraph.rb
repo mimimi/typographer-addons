@@ -1,5 +1,4 @@
-require 'spec_helper'
-
+# encoding: utf-8
 module TypographyHelper
   module Parsers
     class AddClassToFirstParagraph
@@ -8,7 +7,7 @@ module TypographyHelper
         @options[:class] ||= 'first_paragraph'
         @options[:matcher] ||= 'p'
       end
-      
+
       def parse(string)
         doc = Nokogiri.HTML string
         target = doc.css(@options[:matcher]).first

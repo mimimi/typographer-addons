@@ -4,4 +4,4 @@ source "http://rubygems.org"
 gemspec
 
 #TOOD: delme after upstream migration
-gem 'typography', :git => 'git://github.com/brain-geek/typography.git'
+gem 'typography', :git => 'git://github.com/Slotos/typography.git'

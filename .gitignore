@@ -10,3 +10,6 @@
 *._*
 .idea
 Gemfile.lock
+.rspec
+*.swp
+.rvmrc
