@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "typography-css-parsers/version"
+require "typography-addons/version"
 
 Gem::Specification.new do |s|
-  s.name        = TypographyCssParsers::GEM_NAME
-  s.version     = TypographyCssParsers::VERSION
+  s.name        = TypographyAddons::GEM_NAME
+  s.version     = TypographyAddons::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Rozumiy", 'Andrey Savchenko', 'Anton Versal']
   s.email       = ["brain-geek@yandex.ua"]
   s.homepage    = "https://github.com/brain-geek/typography-css-parsers"
-  s.summary = "#{TypographyCssParsers::GEM_NAME}-#{TypographyCssParsers::VERSION}"
+  s.summary = "#{TypographyAddons::GEM_NAME}-#{TypographyAddons::VERSION}"
   s.description = %q{Additional plugins for typography gem}
 
-  s.rubyforge_project = "typography-css-parsers"
+  s.rubyforge_project = "typography-addons"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
