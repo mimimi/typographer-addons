@@ -1,9 +1,9 @@
 # encoding: utf-8
 require 'spec_helper'
 
-describe TypographyHelper::Parsers::WrapFirstLetter, ' last paragraph parser' do |target|
+describe TypographerHelper::Parsers::WrapFirstLetter, ' last paragraph parser' do |target|
   before :all do |spec|
-    TypographyHelper.register :default, [spec.described_class.new]
+    TypographerHelper.register :default, [spec.described_class.new]
   end
   
   it "should wrap first letter in first <p>" do

@@ -1,9 +1,9 @@
 # encoding: utf-8
 require 'spec_helper'
 
-describe TypographyHelper::Parsers::AddClassToFirstParagraph, ' last paragraph parser' do |target|
+describe TypographerHelper::Parsers::AddClassToFirstParagraph, ' last paragraph parser' do |target|
   before :all do |spec|
-    TypographyHelper.register :default, [spec.described_class.new]
+    TypographerHelper.register :default, [spec.described_class.new]
   end
 
   it "should add class to first <p>" do
