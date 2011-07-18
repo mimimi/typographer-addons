@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Rozumiy", 'Andrey Savchenko', 'Anton Versal']
   s.email       = ["brain-geek@yandex.ua"]
-  s.homepage    = "https://github.com/brain-geek/typographer-css-parsers"
+  s.homepage    = "https://github.com/Slotos/typographer-addons"
   s.summary = "#{TypographerAddons::GEM_NAME}-#{TypographerAddons::VERSION}"
   s.description = %q{Additional plugins for typographer gem}
 
